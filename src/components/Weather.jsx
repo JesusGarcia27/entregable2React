@@ -36,21 +36,21 @@ const Weather = ({weather, temp}) => {
 
                 <div className='flex text-base justify-center items-center m-1'>
                     <div className='px-2' >
-                        <img src="./public/img/wind2.png" alt="" />
+                        <img src="/img/wind2.png" />
                     </div>
                     <h5 className='text-center'>{weather.wind.speed} m/s</h5>
                 </div>
 
                 <div className='flex text-base justify-center items-center m-1'>
                     <div className='px-2'>
-                        <img src="./public/img/Humidity.png" alt="" />
+                        <img src="/img/Humidity.png" alt="" />
                     </div>
                     <h5 className='text-center'>{weather.main.humidity} %</h5>
                 </div>
 
                 <div className='flex text-base justify-center items-center m-1'>
                     <div className='px-2'>
-                        <img src="./public/img/pressure.png" alt="" />
+                        <img src="/img/pressure.png" alt="" />
                     </div>
                     <h5 className='text-center'>{weather.main.pressure} hPa</h5>
                 </div>
